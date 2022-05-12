@@ -1,5 +1,5 @@
 import numpy as np
-import seaborn as sns
+#import seaborn as sns
 import matplotlib.pyplot as plt
 import datetime
 import pandas as pd
@@ -13,12 +13,14 @@ date=df.date
 df['date']=pd.to_datetime(df['date'], errors='coerce')
 #print(df)
 
+# list of all countries available in dataframe
 country=df['location'].to_list()
-set_country=set()
+set_country=set()	# list of all countries
 for i in country:
 	set_country.add(i)
 #print(set_country)	
 
+# set our country as India
 country="India"
 include_india=df[df['location'].values==country]
 exclude_india=df[df['location'].values!=country]
