@@ -7,7 +7,9 @@ Analyse our country's Covid19 situation using python.
 ## Screenshots
 
 ![App Screenshot](https://raw.githubusercontent.com/shaurya121/Covid19-Dashboard/main/Screenshots/covid%20cases.png)
+
 ![App Screenshot](https://raw.githubusercontent.com/shaurya121/Covid19-Dashboard/main/Screenshots/covid%20deaths.png)
+
 ![App Screenshot](https://raw.githubusercontent.com/shaurya121/Covid19-Dashboard/main/Screenshots/positivity.png)
 
 
